@@ -83,6 +83,3 @@ Comandos de inicialização:
 
 Estartar projeto:
 - npm run start:dev
-
-
-Nest is [MIT licensed](LICENSE).
