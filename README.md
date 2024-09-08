@@ -65,9 +65,24 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
+
+
+
+Comandos de inicialização:
+
+- npm i -g @nestjs/cli
+- add '.env' (Adicionar o link do DB_URL="link" e o JWT_SECRET e o JWT_EXPIRES)
+- npm i mongoose @nestjs/mongoose @nestjs/config --save
+- npm i --save class-validator class-transformer --save
+- npm i --save @nestjs/passport passport passport-local
+- npm i --save-dev @types/passport-local
+- npm i @nestjs/jwt --save
+- npm i bcryptjs --save
+- npm i passport-jwt --save
+
+Estartar projeto:
+- npm run start:dev
+
 
 Nest is [MIT licensed](LICENSE).
